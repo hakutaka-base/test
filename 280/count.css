@@ -1,5 +1,4 @@
 .count {
- width: auto;
  padding: 0 10px;
  margin: 0;
  margin-left: 30px;
@@ -11,7 +10,7 @@
 }
 
 .l-count {
- color: #000000;
+ margin-bottom: 10px;
 }
 
 
