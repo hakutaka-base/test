@@ -42,6 +42,6 @@ function displayElapsedDays(elementId, year, month, day, text) {
 }
 
 // 関数を複数回呼び出してそれぞれのイベントを表示
-displayElapsedDays('event1', 2019, 12, 27, '初配信から');
-displayElapsedDays('event2', 2025, 12, 27, '卒業から');
-displayElapsedDays('event3', 2023, 8, 10, '2023年8月10日から');
+displayElapsedDays('event1', 2023, 4, 22, '2023年4月22日の「初投稿」から');
+displayElapsedDays('event2', 2023, 5, 12, '生配信から');
+displayElapsedDays('event3', 2023, 4, 22, '2023年8月10日から');
