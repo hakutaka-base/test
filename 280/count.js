@@ -32,7 +32,7 @@ function displayElapsedDays(elementId, year, month, day, text) {
     }
     var remainingDays = Math.floor((today.getTime() - lastAnniversary.getTime()) / (1000 * 60 * 60 * 24));
 
-    output = `${text}<p class="count">${years}年</p>と<p class="count">${remainingDays}日</p>（合計${totalCount}日）`;
+    output = `${text}<p class="count">${years}年${remainingDays}日</p>（合計${totalCount}日）`;
 
   } else {
     output = text + '調整中';
