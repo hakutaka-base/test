@@ -1,6 +1,7 @@
 .count {
  width: auto;
  padding: 0 10px;
- margin-left :30px;
+ margin: 0;
+ margin-left: 30px;
  color: #ff0000;
 }
