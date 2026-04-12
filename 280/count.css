@@ -9,6 +9,7 @@ g-グローバル用
  margin: 0;
  margin-left: 24px;
  color: #333333;
+ font-weight: bold;
 }
 
 .count-txt {
