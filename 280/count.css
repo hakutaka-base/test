@@ -4,6 +4,11 @@ c- 部品用
 g-グローバル用
  ####### */
 
+.wrapper {
+  padding: 16px;
+  margin: 0;
+}
+
 .count {
  padding: 0 10px;
  margin: 0;
