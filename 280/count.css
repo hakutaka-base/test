@@ -1,21 +1,20 @@
+/* ###### 
+l レイアウト用
+c- 部品用
+g-グローバル用
+ ####### */
+
 .count {
  padding: 0 10px;
  margin: 0;
  margin-left: 30px;
- color: #ff0000;
+ color: #333333;
 }
 
 .count-txt {
- color: #000000;
+ color: #ff0000;
 }
 
 .l-count {
  margin-bottom: 10px;
 }
-
-
-/* ### 
-l レイアウト用
-c- 部品用
-g-グローバル用
- #### */
