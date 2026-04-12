@@ -6,44 +6,43 @@ g-グローバル用
 @layer reset, base, layout, components, utilities;
 
 @layer reset {
-  /* box-sizingをここで一括設定 */
-  :where(*) {
-    box-sizing: border-box;
-  }
+/* box-sizingをここで一括設定 */
+:where(*) {
+  box-sizing: border-box;
+}
 
-  /* 余白のリセット */
-  :where(body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure) {
-    margin: 0;
-    padding: 0;
-  }
+/* 余白のリセット */
+:where(body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure) {
+  margin: 0;
+  padding: 0;
+}
 
-  :where(ul, ol) {
-    list-style: none;
-  }
+:where(ul, ol) {
+  list-style: none;
+}
 
-  /* 画像の突き抜け防止（追加推奨） */
-  :where(img, svg, video) {
-    display: block;
-    max-width: 100%;
-  }
+/* 画像の突き抜け防止（追加推奨） */
+:where(img, svg, video) {
+  display: block;
+  max-width: 100%;
+}
+
 }
 
 
 
 @layer base {
-  html {
-    /* box-sizingはresetで完結させるなら不要 */
-    font-family: sans-serif;
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%; /* モバイルでの文字サイズ自動調整防止 */
-  }
-
-@media (min-width: 768px) {
-  body {
-    padding-top: 40px; /* ヘッダー50px + 余裕10px 下げる */
-    background-color: #e6eae6;			/* 背景色 フロスティホワイト */
-  }
+html {
+  /* box-sizingはresetで完結させるなら不要 */
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; /* モバイルでの文字サイズ自動調整防止 */
 }
+
+body {
+  color: #333333;
+  background-color: #eef2f5;			/* 背景色 フロスティホワイトe6eae6 から変更 */
+  }
 
 }
 
@@ -60,19 +59,19 @@ g-グローバル用
 
 @layer layout {
 .count {
- padding: 0 10px;
- margin: 0;
- margin-left: 24px;
- color: #333333;
- font-weight: bold;
+  padding: 0 10px;
+  margin: 0;
+  margin-left: 24px;
+  color: #333333;
+  font-weight: bold;
 }
 
 .count-txt {
- color: #ff0000;
+  color: #ff0000;
 }
 
 .l-count {
- margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 }
